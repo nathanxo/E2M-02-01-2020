@@ -7,6 +7,9 @@ height: 100%;
   color: #FFFFFF;
   background-color: #303030;
 }
+header {
+	background-color: #3F3F3F;
+}
 .navbar-light, .navbar-nav, .nav-link {
   color: #626262;
 }
