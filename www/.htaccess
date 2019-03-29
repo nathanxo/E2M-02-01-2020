@@ -3,3 +3,8 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)\.html$ /$1 [L,R=301] 
+RewriteRule ^index$ index.html [L]
+RewriteRule ^home$ home.html [L]
+RewriteRule ^about-us$ about-us.html [L]
+RewriteRule ^track-your-order$ track-your-order.html [L]
+RewriteRule ^home-delivery$ home-delivery.html [L]
