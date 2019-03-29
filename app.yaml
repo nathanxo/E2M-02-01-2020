@@ -10,17 +10,3 @@ handlers:
 - url: /(.*)
   static_files: www/\1
   upload: www/(.*)
-  script: mod_rewrite.php
-  
-mod_rewrite.php:
-
-$path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-if (dirname($path) == '/' && pathinfo($path, PATHINFO_EXTENSION) == 'html') {
-  $file = pathinfo($path, PATHINFO_BASENAME);
-}
-else {
-  $file = 'index.html
-}
-
-$_SERVER['SCRIPT_NAME'] = '/' . $file;
-require $file;
