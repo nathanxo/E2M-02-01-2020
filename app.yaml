@@ -3,13 +3,15 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /, /(.*)
-  static_files: www/index.html, www/\1
-  upload: www/index.html, www/(.*)
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
 
-- url: /.*
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
   script: mod_rewrite.php
-
+  
 mod_rewrite.php:
 
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
