@@ -10,7 +10,13 @@ height: 100%;
 header {
 	background-color: #3F3F3F;
 }
+.trackingno {
+	text-transform: uppercase;
+}
 
+.e-mail-big {
+	font-size: 150%
+}
 .navbar-light, .navbar-nav, .nav-link {
   color: #626262;
 }
@@ -53,6 +59,12 @@ header {
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
+}
+.card-body {
+ color: #000000;
+}
+.card {
+	background-color: #FFD700
 }
 .btn-primary {
   background-color: #333333;
