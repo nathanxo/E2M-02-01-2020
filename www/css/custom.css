@@ -17,6 +17,9 @@ header {
 .e-mail-big {
 	font-size: 150%
 }
+.constantcom {
+	padding: 50px;
+}
 .navbar-light, .navbar-nav, .nav-link {
   color: #626262;
 }
