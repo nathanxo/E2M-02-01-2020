@@ -10,12 +10,17 @@ height: 100%;
 header {
 	background-color: #3F3F3F;
 }
+.call-us {
+  margin-left: 45px;
+  margin-right:45px;
+}
+
 .trackingno {
 	text-transform: uppercase;
 }
 
 .e-mail-big {
-	font-size: 150%
+	font-size: 150%;
 }
 .constantcom {
 	padding: 50px;
@@ -171,13 +176,38 @@ hr.light-100{
 }
 
 /*---Media Queries --*/
+@media (max-width: 1033px) {
+
+    .call-us {
+      margin-left: 55px;
+      margin-right:55px;
+      font-size: 90%;
+    }
+}
+
 @media (max-width: 992px) {
+
+    .call-us {
+      margin-left: 45px;
+      margin-right:45px;
+      font-size: 100%;
+    }
+
 	  .social a {
 	  font-size: 4em;
 	  padding: .3em;
 	}
 }
 @media (max-width: 768px) {
+
+  .call-us {
+  margin-left: 0px;
+  margin-right:0px;
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size: 100%;
+  }
+
 	.navbar-brand img{
 	width: 85%
 	}
