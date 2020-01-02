@@ -10,9 +10,19 @@ height: 100%;
 header {
 	background-color: #3F3F3F;
 }
+.telephone {
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
 .call-us {
   margin-left: 45px;
-  margin-right:45px;
+  margin-right: 45px;
+  margin-bottom: 5px;
+  color: #303030;
+  display: inline-block;
+  text-align: center;
 }
 
 .trackingno {
